@@ -51,10 +51,13 @@ set statusline+=\ [%n]
 let g:vimwiki_global_ext = 0
 
 " Registered Wiki
+let wiki_vimwiki = {}
+let wiki_vimwiki.path = '~/Documents/vimwiki'
+
 let wiki_alina = {}
 let wiki_alina.path = '~/Blog/Alina/wiki'
 
-let g:vimwiki_list = [wiki_alina]
+let g:vimwiki_list = [wiki_vimwiki, wiki_alina]
 
 " Key-bindings
 let mapleader=" "
