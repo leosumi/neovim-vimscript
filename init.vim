@@ -6,6 +6,8 @@ call plug#begin(stdpath('data') . '/plugged')
  " QoL
  Plug 'ap/vim-css-color'
  Plug 'dhruvasagar/vim-table-mode'
+ Plug 'ludovicchabant/vim-gutentags'
+ Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
  Plug 'junegunn/goyo.vim'
 
