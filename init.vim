@@ -24,6 +24,9 @@ call plug#end()
 " Automatically deletes all trailling whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
 
+" Search down into subfolders
+set path=**
+
 " Line's number
 set number
 set relativenumber
