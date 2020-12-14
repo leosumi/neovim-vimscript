@@ -41,6 +41,14 @@ set showbreak=…
 set splitbelow
 set splitright
 
+" spaces vs tabs
+set expandtab
+set tabstop=4
+set shiftwidth=4
+
+" Display blank characters
+set list
+
 " Status-line
 set statusline=
 set statusline+=\ %M
