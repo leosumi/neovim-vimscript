@@ -95,8 +95,10 @@ let g:grammalecte_cli_py = '/usr/bin/grammalecte-cli'
 " Key-bindings
 let mapleader=" "
 
-nnoremap <leader>e   :vsplit ~/.config/nvim/init.vim<CR>
+nnoremap <leader>e   :edit ~/.config/nvim/init.vim<CR>
 nnoremap <leader>s   :source ~/.config/nvim/init.vim<CR>
+
+nnoremap <leader>b   :set list!<CR>
 
 nnoremap <leader>h   <C-W>h
 nnoremap <leader>j   <C-W>j
