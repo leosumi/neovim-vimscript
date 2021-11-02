@@ -59,6 +59,9 @@ set shiftwidth=4
 " Display blank characters
 set list
 
+" Spell
+set spellsuggest=5
+
 " Status-line
 set statusline=
 set statusline+=\ %M
