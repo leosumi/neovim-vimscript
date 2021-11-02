@@ -29,6 +29,9 @@ call plug#begin(stdpath('data') . '/plugged')
  Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
+" Why ?!?
+nnoremap Y y$
+
 " Automatically deletes all trailling whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
 
