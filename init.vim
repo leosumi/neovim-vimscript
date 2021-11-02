@@ -5,14 +5,21 @@
 call plug#begin(stdpath('data') . '/plugged')
  " QoL
  Plug 'ap/vim-css-color'
+ Plug 'Yggdroot/indentLine'
  Plug 'dhruvasagar/vim-table-mode'
  Plug 'ludovicchabant/vim-gutentags'
  Plug 'editorconfig/editorconfig-vim'
  Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
+ Plug 'inkarkat/vim-ingo-library' | Plug 'inkarkat/vim-SpellCheck'
+ Plug 'dpelle/vim-Grammalecte'
+ Plug 'dpelle/vim-LanguageTool'
 
+ Plug 'tpope/vim-fugitive'
+ Plug 'tell-k/vim-autopep8'
  Plug 'junegunn/goyo.vim'
 
  " Filetypes
+ Plug 'lervag/vimtex'
  Plug 'vimwiki/vimwiki'
 
  " Colorschemes
@@ -72,6 +79,12 @@ let wiki_alina = {}
 let wiki_alina.path = '~/Blog/Alina/wiki'
 
 let g:vimwiki_list = [wiki_vimwiki, wiki_alina]
+
+" Where is languagetool ?
+let g:languagetool_cmd = '/usr/bin/languagetool'
+
+" Where is grammalecte ?
+let g:grammalecte_cli_py = '/usr/bin/grammalecte-cli'
 
 " Key-bindings
 let mapleader=" "
