@@ -61,6 +61,9 @@ set statusline+=\ %l/%L
 set statusline+=\ %p%%
 set statusline+=\ [%n]
 
+" Fix conceallevel changed by indentLine plugin
+let g:indentLine_fileTypeExclude = ["markdown"]
+
 " Do not detect markdown files as wiki files
 let g:vimwiki_global_ext = 0
 
