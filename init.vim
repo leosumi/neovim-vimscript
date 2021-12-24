@@ -20,6 +20,7 @@ call plug#begin(stdpath('data') . '/plugged')
  Plug 'morhetz/gruvbox'
  Plug 'sunaku/xoria256.vim'
  Plug 'tomasiser/vim-code-dark'
+ Plug 'shaunsingh/nord.nvim'
 call plug#end()
 
 " Automatically deletes all trailling whitespace on save
@@ -97,5 +98,6 @@ nnoremap <leader>2   :colorscheme gruvbox<CR>
 nnoremap <leader>3   :colorscheme xoria256<CR>
 nnoremap <leader>4   :colorscheme codedark<CR>
 nnoremap <leader>5   :colorscheme solarized8_flat<CR>
+nnoremap <leader>6   :colorscheme nord<CR>
 
 nnoremap <leader>g   :Goyo<CR>
