@@ -122,3 +122,9 @@ nnoremap <leader>5   :colorscheme solarized8_flat<CR>
 nnoremap <leader>6   :colorscheme nord<CR>
 
 nnoremap <leader>g   :Goyo<CR>
+
+" Spell highlight
+hi SpellBad cterm=underline
+hi SpellLocal cterm=underline
+hi SpellRare cterm=underline
+hi SpellCap cterm=underline
